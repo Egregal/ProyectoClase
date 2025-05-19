@@ -1,0 +1,9 @@
+section{
+    display: flex;
+    padding: 1.5rem;
+    margin: 2rem;
+    h2{
+        font-size: 2rem;
+    }
+
+}
