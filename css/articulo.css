@@ -1,0 +1,45 @@
+.articulo {
+  display: flexbox;
+  box-sizing: border-box;
+  border-radius: 15%;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: rgb(232, 195, 142);
+  justify-items: center;
+
+
+  h2 {
+    font-size: xx-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 0.5rem;
+    }
+  h3 {
+    font-size: larger;
+  }
+  p{
+    margin: 1rem 0 1rem 0 ;
+  }
+  img{
+
+    width: 15dvw;
+    border-radius: 15px;
+
+  }
+  button{
+
+    padding: 1rem;
+    background-color: blueviolet;
+    color: antiquewhite;
+    border: solid 2px black;
+    border-radius: 25%;
+
+
+  }
+        button:hover{
+            background-color: aqua;
+            color: black;
+            border-color: blueviolet;
+            transition: ease-in-out .5s;
+        }
+}

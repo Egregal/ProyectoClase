@@ -1,0 +1,47 @@
+.container2{
+display: inline-block;
+width: 100dvw;
+justify-content: space-around;
+
+
+}
+
+table{
+    border: solid red 1px;
+    margin: .5rem;
+    text-align: center;
+    width: 80dvw;
+
+
+    th,td{
+            border: solid green 1px;
+            padding: .5rem;
+    }
+}
+.galeria{
+
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+    margin: 2rem;
+    padding: 2rem;
+
+
+    img{
+        border:solid 3px;
+        border-image: linear-gradient(45deg, red, lime, blue) 1;
+
+
+
+    }
+
+}
+@media (max-width: 725px) {
+    .galeria{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows:repeat(3,1fr);
+
+}
+}
