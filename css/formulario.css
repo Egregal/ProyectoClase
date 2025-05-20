@@ -1,9 +1,19 @@
-section{
+.fromContainer{
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1.5rem;
     margin: 2rem;
     h2{
         font-size: 2rem;
+        margin: 2rem;
     }
 
+}
+form{
+    height: 6dvh;
+    border: 1rem solid grey;
+    background-color: beige;
+    margin: 2rem;
+    padding: 2rem;
 }
