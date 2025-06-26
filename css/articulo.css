@@ -1,5 +1,5 @@
 .articulo {
-  display: flexbox;
+  display: flex;
   box-sizing: border-box;
   padding: 2rem;
   margin: 1rem;
@@ -42,4 +42,13 @@
             border-color: blueviolet;
             transition: ease-in-out .5s;
         }
+}
+.contenidos{
+  display: grid;
+  grid-template-columns:1fr, 1fr, 1fr;
+  grid-template-rows: 1fr, 1fr;
+  margin: 1rem;
+  padding: 1rem;
+
+
 }

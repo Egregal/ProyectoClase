@@ -5,23 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/articulo.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../css/nueva.css">
 
-    <title>Otra Mas</title>
+    <title>Inicio</title>
 </head>
 
 <body>
     <header>
         <div>
-            <a href="../index.html"></a><img src="../image/Logo.jpg" alt="logo">
+            <a href="../image/Logo.jpg"></a><img src="../image/Logo.jpg" alt="logo">
         </div>
         <nav>
             <ul>
-              <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../index.html">Inicio</a></li>
                 <li><a href="../views/hola.html">Hola</a></li>
                 <li><a href="../views/otraMas.html">Otra mas</a></li>
                 <li><a href="../views/otraMas.html">Contacto</a></li>
@@ -31,9 +30,19 @@
         </nav>
     </header>
     <main>
-        <section class="containerflex">
-            <div id="articulo"></div>
-        </section>
+        <h1>Explorador de Personajes - Rick y Morty</h1>
+
+  <form id="searchForm">
+    <label for="searchInput">Buscar personaje:</label>
+    <input type="text" id="searchInput" placeholder="Ej: Rick, Morty" />
+    <button type="submit">Buscar</button>
+  </form>
+
+  <button id="loadBtn">Cargar Personajes Aleatorios</button>
+
+  <div id="charactersContainer" class="charactersContainer"></div>
+
+
 
     </main>
     <footer>
@@ -42,10 +51,11 @@
             <a href="https://www.facebook.com/?locale=es_ES" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
             <a href="https://x.com/?lang=es" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></i>
         </div>
-        <p>&copy;|Eduardo Gregorio</p>
+        <div><p>&copy;|Eduardo Gregorio</p></div>
     </footer>
 
-    <script src="../js/app.js"></script>
+     <script src="../js/nueva.js"></script>
+
 </body>
 
 </html>
